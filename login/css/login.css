@@ -1,0 +1,132 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    height: 64px;
+    line-height: 64px;
+    background-color:#0074C7;
+}
+.header_main {
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+.mainL {
+    float: left;
+}
+.header_main a:hover {
+    text-decoration: none;
+}
+.header_main .mainL a span {
+    color:rgba(236,151,31,1) ;
+    font-size: 16px;
+    /*font-family: "Microsoft Himalaya";*/
+}
+
+.header .navR {
+    float: right;
+    margin-left: 50px;
+}
+.navR>.nav>li>a {
+    height: 64px;
+    padding: 0 15px;
+    border-radius: 0;
+    color: #ffffff;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #0074C7;
+
+}
+
+.navR>.nav>li>a:visited {
+    background-color: #0074C7;
+}
+
+.navR>.nav>li>a:hover {
+    background-color:rgba(236,151,31,1) ;
+}
+
+.dropdown-menu li {
+    text-align: center;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: #2aabd2;
+    color: #2aabd2;
+}
+
+    /*大图登录块*/
+.main {
+    width: 100%;
+    height: 600px;
+    background: rgba(47,48,52,1);
+    position: relative;
+}
+.main .banner a {
+    width: 600px;
+    display: block;
+}
+
+.login_main {
+    width: 300px;
+    height: 480px;
+    border: 1px solid #dddddd;
+    background-color: #fff;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+.tab-pane {
+    text-align: center;
+    padding: 30px 40px 0 40px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a {
+    border-radius: 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border:0;
+    border-bottom: 1px solid #dddddd;
+    border-bottom-color: transparent;
+    background-color: #0074C7;
+}
+
+.form-group button {
+    width: 100px;
+}
+
+
+/*底部版权块*/
+.footer {
+    width: 100%;
+    height: 65px;
+    background-color: #0074C7;
+}
+.footer .footer_main {
+    width: 1000px;
+    line-height: 65px;
+    margin: 0 auto;
+}
+.footer .footer_main span {
+    color:rgba(236,151,31,1) ;
+}
+.footer .footer_main ul {
+    margin: 0;
+    margin-left: 50px;
+}
+.footer .footer_main li {
+    float: left;
+    text-align: center;
+    padding:0 10px;
+}
+.footer .footer_main li a {
+    display: block;
+    color: #ffffff;
+}
+
+.fl {
+    float: left;
+}
